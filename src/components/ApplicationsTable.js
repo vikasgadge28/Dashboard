@@ -6,9 +6,8 @@ const ApplicationsTable = () => {
   // Sample JSON data for each tab
  
   return (
-    <div className="bg-white  mt-6 rounded-lg">
-     
-       <Tabs data={applicationsData} />
+    <div className="bg-white mt-6 rounded-lg w-[64vw]  ">
+      <Tabs data={applicationsData} />
     </div>
   );
 };

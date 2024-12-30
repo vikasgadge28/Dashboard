@@ -26,7 +26,7 @@ const Auditions = () => {
   };
 
   return (
-    <div className="bg-white rounded-xl  p-4 w-[18rem]">
+    <div className="bg-white rounded-xl  p-4 lg:w-[23vw] md:w-[18vw]">
       <div className="relative   ">
         {/* Image Container */}
         <div>
@@ -34,9 +34,9 @@ const Auditions = () => {
         </div>
 
         {/* Black Box */}
-        <div className=" w-56 absolute bottom-4 left-4 rounded-xl bg-white  h-16 p-2 flex items-center justify-between">
+        <div className="lg:w-[18vw] md:w-[12vw] absolute bottom-4 left-4 rounded-xl bg-white  h-16 p-2 flex items-center justify-between">
           <div>
-            <div className="font-semibold text-lg text-font">Anjali Singh</div>
+            <div className="font-semibold lg:text-lg md:text-xs text-font">Anjali Singh</div>
             <div className="text-xs font-semibold text-primaryBlue">
               Actor | Singer
             </div>
@@ -48,7 +48,7 @@ const Auditions = () => {
       </div>
 
       <div className=" flex justify-between items-center mt-6">
-        <h2 className="text-2xl font-semibold mb-4">Auditions</h2>
+        <h2 className="lg:text-2xl md:text-lg font-semibold mb-4">Auditions</h2>
         <div>
           <button
             className="p-2 rounded-full  hover:bg-gray-300"

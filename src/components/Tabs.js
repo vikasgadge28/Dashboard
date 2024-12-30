@@ -67,7 +67,7 @@ const Tabs = ({ data }) => {
           {Object.keys(data).map((tab) => (
             <button
               key={tab}
-              className={`flex items-center px-4 py-2 text-sm rounded-[10px] border-[1.5px] ${
+              className={`flex items-center md:px-2 lg:px-4 py-2 md:text-xs lg:text-sm rounded-[10px] border-[1.5px] ${
                 activeTab === tab ? "bg-font text-white" : "bg-[#F9FAFB]"
               }`}
               onClick={() => {

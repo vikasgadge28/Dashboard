@@ -11,7 +11,7 @@ const Dashboard = () => {
   return (
     <DashboardLayout>
       {/* Parent Container */}
-      <div className="flex flex-col lg:flex-row gap-6">
+      <div className="flex flex-row gap-6">
         {/* Left Section */}
         <div className="flex flex-col gap-6 flex-1">
           {/* ProfileScore and ApplicationOverview */}
@@ -26,7 +26,7 @@ const Dashboard = () => {
         </div>
 
         {/* Right Section (Auditions) */}
-        <div className="w-full lg:w-1/3">
+        <div className="w-full">
           <Auditions className="w-full" />
         </div>
       </div>
